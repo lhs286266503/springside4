@@ -17,7 +17,7 @@
 
 	<properties>
 		<springside.version>5.0.0-SNAPSHOT</springside.version>
-		<commons-lang3.version>3.5</commons-lang3.version>
+		<commons-lang3.version>3.12.0</commons-lang3.version>
 		<guava.version>20.0</guava.version>
 		<orika.version>1.5.0</orika.version>
 		
@@ -128,7 +128,7 @@
 					<driver>org.h2.Driver</driver>
 					<url>jdbc:h2:file:~/.h2/bootapi;AUTO_SERVER=TRUE;DB_CLOSE_DELAY=-1;</url>
 					<user>sa</user>
-					<password></password>
+					<password/>
 				</configuration>
 			</plugin>
 		</plugins>
